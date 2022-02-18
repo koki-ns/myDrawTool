@@ -1,8 +1,3 @@
-import java.awt.Canvas;
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.event.ItemEvent;
-
 public class StateManager implements OperateMode {
 	OperateModeManager operateModeManager;
 	State state;
