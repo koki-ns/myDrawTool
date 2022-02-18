@@ -3,7 +3,6 @@ import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.*;
-import java.util.Iterator;
 import java.util.Vector;
 
 import javax.swing.*;
