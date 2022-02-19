@@ -103,7 +103,8 @@ class CutButton extends JButton implements ActionListener{
 	
 	public CutButton(Mediator mediator) {
 		super("カット");
-		setIcon(new ImageIcon("cut.png"));
+		//setIcon(new ImageIcon("cut.png"));
+		setIcon(new ImageIcon(getClass().getResource("cut.png")));
 		
 		addActionListener(this);
 		
@@ -121,7 +122,7 @@ class CopyButton extends JButton implements ActionListener{
 	
 	public CopyButton(Mediator mediator) {
 		super("コピー");
-		setIcon(new ImageIcon("copy.png"));
+		setIcon(new ImageIcon(getClass().getResource("copy.png")));
 		
 		addActionListener(this);
 		
@@ -139,7 +140,7 @@ class PasteButton extends JButton implements ActionListener{
 	
 	public PasteButton(Mediator mediator) {
 		super("貼り付け");
-		setIcon(new ImageIcon("paste.png"));
+		setIcon(new ImageIcon(getClass().getResource("paste.png")));
 		
 		addActionListener(this);
 		
@@ -157,7 +158,7 @@ class DeleteButton extends JButton implements ActionListener{
 	
 	public DeleteButton(Mediator mediator) {
 		super("削除");
-		setIcon(new ImageIcon("delete.png"));
+		setIcon(new ImageIcon(getClass().getResource("delete.png")));
 		
 		addActionListener(this);
 		

@@ -7,7 +7,8 @@ public class MoveButton extends JButton implements ActionListener {
 	
 	MoveButton(OperateModeManager oMM) {
 		super("図形の移動");
-		setIcon(new ImageIcon("move.png"));
+		//setIcon(new ImageIcon("move.png"));
+		setIcon(new ImageIcon(getClass().getResource("move.png")));
 		
 		this.oMM = oMM;
 		

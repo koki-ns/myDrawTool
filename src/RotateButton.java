@@ -7,7 +7,8 @@ public class RotateButton extends JButton implements ActionListener {
 	
 	RotateButton(OperateModeManager oMM) {
 		super("図形の回転");
-		setIcon(new ImageIcon("rotate.png"));
+		//setIcon(new ImageIcon("rotate.png"));
+		setIcon(new ImageIcon(getClass().getResource("rotate.png")));
 		
 		this.oMM = oMM;
 		
