@@ -32,7 +32,8 @@ class AnimationPlayButton extends JButton {
 	AnimationStopButton asb;
 	
 	public AnimationPlayButton(MyApplication ma, Mediator mediator) {
-		super(new ImageIcon("play.png"));
+		super();
+		setIcon(new ImageIcon(getClass().getResource("play.png")));
 		this.ma = ma;
 		this.mediator = mediator;
 		addActionListener(new PlayListener());
@@ -60,7 +61,8 @@ class AnimationStopButton extends JButton {
 	AnimationPlayButton apb;
 	
 	public AnimationStopButton(MyApplication ma, Mediator mediator) {
-		super(new ImageIcon("stop.png"));
+		super();
+		setIcon(new ImageIcon(getClass().getResource("stop.png")));
 		this.ma = ma;
 		this.mediator = mediator;
 		addActionListener(new StopListener());
